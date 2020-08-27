@@ -30,4 +30,37 @@ function palindrome(str) {
 
 }
 
+//cloud jumping
+
+let position=0;
+let jumps=0;
+
+
+while(position<(c.length-1)){
+
+ if(c[position+2]==0 && (position+2)<c.length){
+   jumps++;
+   position+=2;
+ }else{
+   jumps++;
+   position++;
+ }
+
+}
+return jumps;
+
+let position = 0; 
+let jumps = 0; 
+
+while (position < c.length - 1){
+if( c[position + 2 ] == 0 && (position + 2) < c.length){
+    jumps ++; 
+    position += 2; 
+} else {
+    jumps ++; 
+    position ++; 
+}
+
+}
+return jumps 
 
